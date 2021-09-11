@@ -1,0 +1,342 @@
+2021-09-11 15:22:31.056  INFO 18008 --- [restartedMain] com.ssafy.GroupCallApplication           : Starting GroupCallApplication using Java 1.8.0_192 on DESKTOP-KVCQHCD with PID 18008 (C:\Users\multicampus\Desktop\Ants\backend\build\classes\java\main started by multicampus in C:\Users\multicampus\Desktop\Ants\backend)
+2021-09-11 15:22:31.059  INFO 18008 --- [restartedMain] com.ssafy.GroupCallApplication           : No active profile set, falling back to default profiles: default
+2021-09-11 15:22:31.145  INFO 18008 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-09-11 15:22:31.147  INFO 18008 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-09-11 15:22:34.453  INFO 18008 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-09-11 15:22:34.846  INFO 18008 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 373 ms. Found 14 JPA repository interfaces.
+2021-09-11 15:22:35.946  INFO 18008 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@75ed4595' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-09-11 15:22:35.957  INFO 18008 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-09-11 15:22:38.088  INFO 18008 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8443 (https) 8080 (http)
+2021-09-11 15:22:38.142  INFO 18008 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-09-11 15:22:38.142  INFO 18008 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-09-11 15:22:38.381  INFO 18008 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-09-11 15:22:38.382  INFO 18008 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 7232 ms
+2021-09-11 15:22:38.702 DEBUG 18008 --- [restartedMain] o.s.web.filter.CharacterEncodingFilter   : Filter 'characterEncodingFilter' configured for use
+2021-09-11 15:22:38.704 DEBUG 18008 --- [restartedMain] o.s.w.f.CommonsRequestLoggingFilter      : Filter 'commonsRequestLoggingFilter' configured for use
+2021-09-11 15:22:39.113  INFO 18008 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-09-11 15:22:39.237  INFO 18008 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.30.Final
+2021-09-11 15:22:39.804  INFO 18008 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-09-11 15:22:40.018  INFO 18008 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-09-11 15:22:40.349  INFO 18008 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-09-11 15:22:40.366  INFO 18008 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2021-09-11 15:22:44.169  INFO 18008 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-09-11 15:22:44.187  INFO 18008 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-09-11 15:22:44.210  INFO 18008 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-09-11 15:22:46.402  WARN 18008 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-09-11 15:22:46.950  INFO 18008 --- [JsonRpcClient-hearbeatExec-e1-t0] o.k.j.c.JsonRpcClientNettyWebSocket      : [KurentoClient]  Connecting native client
+2021-09-11 15:22:46.950  INFO 18008 --- [JsonRpcClient-hearbeatExec-e1-t0] o.k.j.c.JsonRpcClientNettyWebSocket      : [KurentoClient]  Creating new NioEventLoopGroup
+2021-09-11 15:22:50.155  INFO 18008 --- [nioEventLoopGroup-2-1] o.k.j.c.JsonRpcClientNettyWebSocket      : [KurentoClient]  Initiating new Netty channel. Will create new handler too!
+2021-09-11 15:22:50.391  WARN 18008 --- [JsonRpcClient-hearbeatExec-e1-t0] o.k.j.c.JsonRpcClientNettyWebSocket      : [KurentoClient]  Trying to close a JsonRpcClientNettyWebSocket with channel == null
+2021-09-11 15:22:50.399  INFO 18008 --- [restartedMain] o.k.j.c.JsonRpcClientNettyWebSocket      : [KurentoClient]  Connecting native client
+2021-09-11 15:22:50.399  INFO 18008 --- [restartedMain] o.k.j.c.JsonRpcClientNettyWebSocket      : [KurentoClient]  Creating new NioEventLoopGroup
+2021-09-11 15:22:50.399  WARN 18008 --- [JsonRpcClient-hearbeatExec-e1-t0] o.kurento.jsonrpc.client.JsonRpcClient   : [KurentoClient]  Error sending heartbeat to server. Exception: [KurentoClient]  Exception connecting to WebSocket server ws://i5b103.p.ssafy.io:8888/kurento
+2021-09-11 15:22:50.400  WARN 18008 --- [JsonRpcClient-hearbeatExec-e1-t0] o.kurento.jsonrpc.client.JsonRpcClient   : [KurentoClient]  Stopping heartbeat and closing client: failure during heartbeat mechanism
+2021-09-11 15:22:50.444  INFO 18008 --- [nioEventLoopGroup-3-1] o.k.j.c.JsonRpcClientNettyWebSocket      : [KurentoClient]  Initiating new Netty channel. Will create new handler too!
+2021-09-11 15:22:50.448  WARN 18008 --- [restartedMain] o.k.j.c.JsonRpcClientNettyWebSocket      : [KurentoClient]  Trying to close a JsonRpcClientNettyWebSocket with channel == null
+2021-09-11 15:22:50.465  WARN 18008 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'conferenceController': Unsatisfied dependency expressed through field 'roomManager'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'roomManager': Unsatisfied dependency expressed through field 'kurento'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'kurentoClient' defined in com.ssafy.GroupCallApplication: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.kurento.client.KurentoClient]: Factory method 'kurentoClient' threw exception; nested exception is org.kurento.commons.exception.KurentoException: Exception connecting to KMS
+2021-09-11 15:22:50.473  INFO 18008 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-09-11 15:22:50.485  INFO 18008 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-09-11 15:22:50.527  INFO 18008 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-09-11 15:22:50.535  INFO 18008 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2021-09-11 15:22:50.589  INFO 18008 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-09-11 15:22:50.645 ERROR 18008 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'conferenceController': Unsatisfied dependency expressed through field 'roomManager'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'roomManager': Unsatisfied dependency expressed through field 'kurento'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'kurentoClient' defined in com.ssafy.GroupCallApplication: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.kurento.client.KurentoClient]: Factory method 'kurentoClient' threw exception; nested exception is org.kurento.commons.exception.KurentoException: Exception connecting to KMS
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:660) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1413) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:601) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:944) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918) ~[spring-context-5.3.6.jar:5.3.6]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.6.jar:5.3.6]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:144) ~[spring-boot-2.4.5.jar:2.4.5]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:782) [spring-boot-2.4.5.jar:2.4.5]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:774) [spring-boot-2.4.5.jar:2.4.5]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) [spring-boot-2.4.5.jar:2.4.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:339) [spring-boot-2.4.5.jar:2.4.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1340) [spring-boot-2.4.5.jar:2.4.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1329) [spring-boot-2.4.5.jar:2.4.5]
+	at com.ssafy.GroupCallApplication.main(GroupCallApplication.java:24) [main/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_192]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_192]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_192]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_192]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-2.4.5.jar:2.4.5]
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'roomManager': Unsatisfied dependency expressed through field 'kurento'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'kurentoClient' defined in com.ssafy.GroupCallApplication: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.kurento.client.KurentoClient]: Factory method 'kurentoClient' threw exception; nested exception is org.kurento.commons.exception.KurentoException: Exception connecting to KMS
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:660) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1413) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:601) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1380) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1300) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:657) ~[spring-beans-5.3.6.jar:5.3.6]
+	... 26 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'kurentoClient' defined in com.ssafy.GroupCallApplication: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.kurento.client.KurentoClient]: Factory method 'kurentoClient' threw exception; nested exception is org.kurento.commons.exception.KurentoException: Exception connecting to KMS
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:658) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:486) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1334) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1177) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:564) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1380) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1300) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:657) ~[spring-beans-5.3.6.jar:5.3.6]
+	... 40 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.kurento.client.KurentoClient]: Factory method 'kurentoClient' threw exception; nested exception is org.kurento.commons.exception.KurentoException: Exception connecting to KMS
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653) ~[spring-beans-5.3.6.jar:5.3.6]
+	... 53 common frames omitted
+Caused by: org.kurento.commons.exception.KurentoException: Exception connecting to KMS
+	at org.kurento.client.KurentoClient.<init>(KurentoClient.java:259) ~[kurento-client-6.16.0.jar:6.16.0]
+	at org.kurento.client.KurentoClient.create(KurentoClient.java:129) ~[kurento-client-6.16.0.jar:6.16.0]
+	at org.kurento.client.KurentoClient.create(KurentoClient.java:116) ~[kurento-client-6.16.0.jar:6.16.0]
+	at org.kurento.client.KurentoClient.create(KurentoClient.java:111) ~[kurento-client-6.16.0.jar:6.16.0]
+	at com.ssafy.GroupCallApplication.kurentoClient(GroupCallApplication.java:73) [main/:na]
+	at com.ssafy.GroupCallApplication$$EnhancerBySpringCGLIB$$26be54e0.CGLIB$kurentoClient$3(<generated>) ~[main/:na]
+	at com.ssafy.GroupCallApplication$$EnhancerBySpringCGLIB$$26be54e0$$FastClassBySpringCGLIB$$396ec170.invoke(<generated>) ~[main/:na]
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244) ~[spring-core-5.3.6.jar:5.3.6]
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331) ~[spring-context-5.3.6.jar:5.3.6]
+	at com.ssafy.GroupCallApplication$$EnhancerBySpringCGLIB$$26be54e0.kurentoClient(<generated>) ~[main/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_192]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_192]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_192]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_192]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154) ~[spring-beans-5.3.6.jar:5.3.6]
+	... 54 common frames omitted
+Caused by: org.kurento.jsonrpc.JsonRpcException: [KurentoClient]  Exception connecting to WebSocket server ws://i5b103.p.ssafy.io:8888/kurento
+	at org.kurento.jsonrpc.client.AbstractJsonRpcClientWebSocket.internalConnectIfNecessary(AbstractJsonRpcClientWebSocket.java:735) ~[kurento-jsonrpc-client-6.16.0.jar:6.16.0]
+	at org.kurento.jsonrpc.client.AbstractJsonRpcClientWebSocket.connectIfNecessary(AbstractJsonRpcClientWebSocket.java:847) ~[kurento-jsonrpc-client-6.16.0.jar:6.16.0]
+	at org.kurento.jsonrpc.client.AbstractJsonRpcClientWebSocket.connect(AbstractJsonRpcClientWebSocket.java:678) ~[kurento-jsonrpc-client-6.16.0.jar:6.16.0]
+	at org.kurento.client.KurentoClient.<init>(KurentoClient.java:251) ~[kurento-client-6.16.0.jar:6.16.0]
+	... 68 common frames omitted
+Caused by: java.net.UnknownHostException: i5b103.p.ssafy.io
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1281) ~[na:1.8.0_192]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1193) ~[na:1.8.0_192]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1127) ~[na:1.8.0_192]
+	at java.net.InetAddress.getByName(InetAddress.java:1077) ~[na:1.8.0_192]
+	at io.netty.util.internal.SocketUtils$8.run(SocketUtils.java:156) ~[netty-common-4.1.63.Final.jar:4.1.63.Final]
+	at io.netty.util.internal.SocketUtils$8.run(SocketUtils.java:153) ~[netty-common-4.1.63.Final.jar:4.1.63.Final]
+	at java.security.AccessController.doPrivileged(Native Method) ~[na:1.8.0_192]
+	at io.netty.util.internal.SocketUtils.addressByName(SocketUtils.java:153) ~[netty-common-4.1.63.Final.jar:4.1.63.Final]
+	at io.netty.resolver.DefaultNameResolver.doResolve(DefaultNameResolver.java:41) ~[netty-resolver-4.1.63.Final.jar:4.1.63.Final]
+	at io.netty.resolver.SimpleNameResolver.resolve(SimpleNameResolver.java:61) ~[netty-resolver-4.1.63.Final.jar:4.1.63.Final]
+	at io.netty.resolver.SimpleNameResolver.resolve(SimpleNameResolver.java:53) ~[netty-resolver-4.1.63.Final.jar:4.1.63.Final]
+	at io.netty.resolver.InetSocketAddressResolver.doResolve(InetSocketAddressResolver.java:55) ~[netty-resolver-4.1.63.Final.jar:4.1.63.Final]
+	at io.netty.resolver.InetSocketAddressResolver.doResolve(InetSocketAddressResolver.java:31) ~[netty-resolver-4.1.63.Final.jar:4.1.63.Final]
+	at io.netty.resolver.AbstractAddressResolver.resolve(AbstractAddressResolver.java:106) ~[netty-resolver-4.1.63.Final.jar:4.1.63.Final]
+	at io.netty.bootstrap.Bootstrap.doResolveAndConnect0(Bootstrap.java:206) ~[netty-transport-4.1.63.Final.jar:4.1.63.Final]
+	at io.netty.bootstrap.Bootstrap.access$000(Bootstrap.java:46) ~[netty-transport-4.1.63.Final.jar:4.1.63.Final]
+	at io.netty.bootstrap.Bootstrap$1.operationComplete(Bootstrap.java:180) ~[netty-transport-4.1.63.Final.jar:4.1.63.Final]
+	at io.netty.bootstrap.Bootstrap$1.operationComplete(Bootstrap.java:166) ~[netty-transport-4.1.63.Final.jar:4.1.63.Final]
+	at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:578) ~[netty-common-4.1.63.Final.jar:4.1.63.Final]
+	at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:552) ~[netty-common-4.1.63.Final.jar:4.1.63.Final]
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:491) ~[netty-common-4.1.63.Final.jar:4.1.63.Final]
+	at io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:616) ~[netty-common-4.1.63.Final.jar:4.1.63.Final]
+	at io.netty.util.concurrent.DefaultPromise.setSuccess0(DefaultPromise.java:605) ~[netty-common-4.1.63.Final.jar:4.1.63.Final]
+	at io.netty.util.concurrent.DefaultPromise.trySuccess(DefaultPromise.java:104) ~[netty-common-4.1.63.Final.jar:4.1.63.Final]
+	at io.netty.channel.DefaultChannelPromise.trySuccess(DefaultChannelPromise.java:84) ~[netty-transport-4.1.63.Final.jar:4.1.63.Final]
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.safeSetSuccess(AbstractChannel.java:1012) ~[netty-transport-4.1.63.Final.jar:4.1.63.Final]
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.register0(AbstractChannel.java:516) ~[netty-transport-4.1.63.Final.jar:4.1.63.Final]
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.access$200(AbstractChannel.java:429) ~[netty-transport-4.1.63.Final.jar:4.1.63.Final]
+	at io.netty.channel.AbstractChannel$AbstractUnsafe$1.run(AbstractChannel.java:486) ~[netty-transport-4.1.63.Final.jar:4.1.63.Final]
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164) ~[netty-common-4.1.63.Final.jar:4.1.63.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472) ~[netty-common-4.1.63.Final.jar:4.1.63.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:500) ~[netty-transport-4.1.63.Final.jar:4.1.63.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989) ~[netty-common-4.1.63.Final.jar:4.1.63.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.63.Final.jar:4.1.63.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.1.63.Final.jar:4.1.63.Final]
+	at java.lang.Thread.run(Thread.java:748) ~[na:1.8.0_192]
+
+2021-09-11 15:27:40.421  INFO 17228 --- [restartedMain] com.ssafy.GroupCallApplication           : Starting GroupCallApplication using Java 1.8.0_192 on DESKTOP-KVCQHCD with PID 17228 (C:\Users\multicampus\Desktop\Ants\backend\build\classes\java\main started by multicampus in C:\Users\multicampus\Desktop\Ants\backend)
+2021-09-11 15:27:40.432  INFO 17228 --- [restartedMain] com.ssafy.GroupCallApplication           : No active profile set, falling back to default profiles: default
+2021-09-11 15:27:40.531  INFO 17228 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-09-11 15:27:40.532  INFO 17228 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-09-11 15:27:43.755  INFO 17228 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-09-11 15:27:44.164  INFO 17228 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 397 ms. Found 14 JPA repository interfaces.
+2021-09-11 15:27:44.943  INFO 17228 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@29a49f29' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-09-11 15:27:44.954  INFO 17228 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-09-11 15:27:46.676  INFO 17228 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8443 (https) 8080 (http)
+2021-09-11 15:27:46.718  INFO 17228 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-09-11 15:27:46.718  INFO 17228 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-09-11 15:27:47.058  INFO 17228 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-09-11 15:27:47.059  INFO 17228 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 6526 ms
+2021-09-11 15:27:47.408 DEBUG 17228 --- [restartedMain] o.s.web.filter.CharacterEncodingFilter   : Filter 'characterEncodingFilter' configured for use
+2021-09-11 15:27:47.409 DEBUG 17228 --- [restartedMain] o.s.w.f.CommonsRequestLoggingFilter      : Filter 'commonsRequestLoggingFilter' configured for use
+2021-09-11 15:27:47.849  INFO 17228 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-09-11 15:27:47.962  INFO 17228 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.30.Final
+2021-09-11 15:27:48.396  INFO 17228 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-09-11 15:27:48.633  INFO 17228 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-09-11 15:27:49.230  INFO 17228 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-09-11 15:27:49.271  INFO 17228 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2021-09-11 15:27:51.732  INFO 17228 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-09-11 15:27:51.759  INFO 17228 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-09-11 15:27:51.802  INFO 17228 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-09-11 15:27:53.351  WARN 17228 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-09-11 15:27:53.977  INFO 17228 --- [JsonRpcClient-hearbeatExec-e1-t0] o.k.j.c.JsonRpcClientNettyWebSocket      : [KurentoClient]  Connecting native client
+2021-09-11 15:27:53.977  INFO 17228 --- [JsonRpcClient-hearbeatExec-e1-t0] o.k.j.c.JsonRpcClientNettyWebSocket      : [KurentoClient]  Creating new NioEventLoopGroup
+2021-09-11 15:27:56.858  INFO 17228 --- [nioEventLoopGroup-2-1] o.k.j.c.JsonRpcClientNettyWebSocket      : [KurentoClient]  Initiating new Netty channel. Will create new handler too!
+2021-09-11 15:27:57.101  WARN 17228 --- [JsonRpcClient-hearbeatExec-e1-t0] o.k.j.c.JsonRpcClientNettyWebSocket      : [KurentoClient]  Trying to close a JsonRpcClientNettyWebSocket with channel == null
+2021-09-11 15:27:57.108  INFO 17228 --- [restartedMain] o.k.j.c.JsonRpcClientNettyWebSocket      : [KurentoClient]  Connecting native client
+2021-09-11 15:27:57.108  INFO 17228 --- [restartedMain] o.k.j.c.JsonRpcClientNettyWebSocket      : [KurentoClient]  Creating new NioEventLoopGroup
+2021-09-11 15:27:57.108  WARN 17228 --- [JsonRpcClient-hearbeatExec-e1-t0] o.kurento.jsonrpc.client.JsonRpcClient   : [KurentoClient]  Error sending heartbeat to server. Exception: [KurentoClient]  Exception connecting to WebSocket server ws://i5b103.p.ssafy.io:8888/kurento
+2021-09-11 15:27:57.109  WARN 17228 --- [JsonRpcClient-hearbeatExec-e1-t0] o.kurento.jsonrpc.client.JsonRpcClient   : [KurentoClient]  Stopping heartbeat and closing client: failure during heartbeat mechanism
+2021-09-11 15:27:57.138  INFO 17228 --- [nioEventLoopGroup-3-1] o.k.j.c.JsonRpcClientNettyWebSocket      : [KurentoClient]  Initiating new Netty channel. Will create new handler too!
+2021-09-11 15:27:57.139  WARN 17228 --- [restartedMain] o.k.j.c.JsonRpcClientNettyWebSocket      : [KurentoClient]  Trying to close a JsonRpcClientNettyWebSocket with channel == null
+2021-09-11 15:27:57.149  WARN 17228 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'conferenceController': Unsatisfied dependency expressed through field 'roomManager'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'roomManager': Unsatisfied dependency expressed through field 'kurento'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'kurentoClient' defined in com.ssafy.GroupCallApplication: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.kurento.client.KurentoClient]: Factory method 'kurentoClient' threw exception; nested exception is org.kurento.commons.exception.KurentoException: Exception connecting to KMS
+2021-09-11 15:27:57.153  INFO 17228 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-09-11 15:27:57.158  INFO 17228 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-09-11 15:27:57.183  INFO 17228 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-09-11 15:27:57.190  INFO 17228 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2021-09-11 15:27:57.245  INFO 17228 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-09-11 15:27:57.346 ERROR 17228 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'conferenceController': Unsatisfied dependency expressed through field 'roomManager'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'roomManager': Unsatisfied dependency expressed through field 'kurento'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'kurentoClient' defined in com.ssafy.GroupCallApplication: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.kurento.client.KurentoClient]: Factory method 'kurentoClient' threw exception; nested exception is org.kurento.commons.exception.KurentoException: Exception connecting to KMS
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:660) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1413) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:601) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:944) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918) ~[spring-context-5.3.6.jar:5.3.6]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.6.jar:5.3.6]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:144) ~[spring-boot-2.4.5.jar:2.4.5]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:782) [spring-boot-2.4.5.jar:2.4.5]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:774) [spring-boot-2.4.5.jar:2.4.5]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) [spring-boot-2.4.5.jar:2.4.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:339) [spring-boot-2.4.5.jar:2.4.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1340) [spring-boot-2.4.5.jar:2.4.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1329) [spring-boot-2.4.5.jar:2.4.5]
+	at com.ssafy.GroupCallApplication.main(GroupCallApplication.java:24) [main/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_192]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_192]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_192]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_192]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-2.4.5.jar:2.4.5]
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'roomManager': Unsatisfied dependency expressed through field 'kurento'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'kurentoClient' defined in com.ssafy.GroupCallApplication: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.kurento.client.KurentoClient]: Factory method 'kurentoClient' threw exception; nested exception is org.kurento.commons.exception.KurentoException: Exception connecting to KMS
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:660) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1413) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:601) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1380) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1300) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:657) ~[spring-beans-5.3.6.jar:5.3.6]
+	... 26 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'kurentoClient' defined in com.ssafy.GroupCallApplication: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.kurento.client.KurentoClient]: Factory method 'kurentoClient' threw exception; nested exception is org.kurento.commons.exception.KurentoException: Exception connecting to KMS
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:658) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:486) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1334) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1177) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:564) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1380) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1300) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:657) ~[spring-beans-5.3.6.jar:5.3.6]
+	... 40 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.kurento.client.KurentoClient]: Factory method 'kurentoClient' threw exception; nested exception is org.kurento.commons.exception.KurentoException: Exception connecting to KMS
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653) ~[spring-beans-5.3.6.jar:5.3.6]
+	... 53 common frames omitted
+Caused by: org.kurento.commons.exception.KurentoException: Exception connecting to KMS
+	at org.kurento.client.KurentoClient.<init>(KurentoClient.java:259) ~[kurento-client-6.16.0.jar:6.16.0]
+	at org.kurento.client.KurentoClient.create(KurentoClient.java:129) ~[kurento-client-6.16.0.jar:6.16.0]
+	at org.kurento.client.KurentoClient.create(KurentoClient.java:116) ~[kurento-client-6.16.0.jar:6.16.0]
+	at org.kurento.client.KurentoClient.create(KurentoClient.java:111) ~[kurento-client-6.16.0.jar:6.16.0]
+	at com.ssafy.GroupCallApplication.kurentoClient(GroupCallApplication.java:73) [main/:na]
+	at com.ssafy.GroupCallApplication$$EnhancerBySpringCGLIB$$974327cf.CGLIB$kurentoClient$3(<generated>) ~[main/:na]
+	at com.ssafy.GroupCallApplication$$EnhancerBySpringCGLIB$$974327cf$$FastClassBySpringCGLIB$$f43c6124.invoke(<generated>) ~[main/:na]
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244) ~[spring-core-5.3.6.jar:5.3.6]
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331) ~[spring-context-5.3.6.jar:5.3.6]
+	at com.ssafy.GroupCallApplication$$EnhancerBySpringCGLIB$$974327cf.kurentoClient(<generated>) ~[main/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_192]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_192]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_192]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_192]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154) ~[spring-beans-5.3.6.jar:5.3.6]
+	... 54 common frames omitted
+Caused by: org.kurento.jsonrpc.JsonRpcException: [KurentoClient]  Exception connecting to WebSocket server ws://i5b103.p.ssafy.io:8888/kurento
+	at org.kurento.jsonrpc.client.AbstractJsonRpcClientWebSocket.internalConnectIfNecessary(AbstractJsonRpcClientWebSocket.java:735) ~[kurento-jsonrpc-client-6.16.0.jar:6.16.0]
+	at org.kurento.jsonrpc.client.AbstractJsonRpcClientWebSocket.connectIfNecessary(AbstractJsonRpcClientWebSocket.java:847) ~[kurento-jsonrpc-client-6.16.0.jar:6.16.0]
+	at org.kurento.jsonrpc.client.AbstractJsonRpcClientWebSocket.connect(AbstractJsonRpcClientWebSocket.java:678) ~[kurento-jsonrpc-client-6.16.0.jar:6.16.0]
+	at org.kurento.client.KurentoClient.<init>(KurentoClient.java:251) ~[kurento-client-6.16.0.jar:6.16.0]
+	... 68 common frames omitted
+Caused by: java.net.UnknownHostException: i5b103.p.ssafy.io
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1281) ~[na:1.8.0_192]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1193) ~[na:1.8.0_192]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1127) ~[na:1.8.0_192]
+	at java.net.InetAddress.getByName(InetAddress.java:1077) ~[na:1.8.0_192]
+	at io.netty.util.internal.SocketUtils$8.run(SocketUtils.java:156) ~[netty-common-4.1.63.Final.jar:4.1.63.Final]
+	at io.netty.util.internal.SocketUtils$8.run(SocketUtils.java:153) ~[netty-common-4.1.63.Final.jar:4.1.63.Final]
+	at java.security.AccessController.doPrivileged(Native Method) ~[na:1.8.0_192]
+	at io.netty.util.internal.SocketUtils.addressByName(SocketUtils.java:153) ~[netty-common-4.1.63.Final.jar:4.1.63.Final]
+	at io.netty.resolver.DefaultNameResolver.doResolve(DefaultNameResolver.java:41) ~[netty-resolver-4.1.63.Final.jar:4.1.63.Final]
+	at io.netty.resolver.SimpleNameResolver.resolve(SimpleNameResolver.java:61) ~[netty-resolver-4.1.63.Final.jar:4.1.63.Final]
+	at io.netty.resolver.SimpleNameResolver.resolve(SimpleNameResolver.java:53) ~[netty-resolver-4.1.63.Final.jar:4.1.63.Final]
+	at io.netty.resolver.InetSocketAddressResolver.doResolve(InetSocketAddressResolver.java:55) ~[netty-resolver-4.1.63.Final.jar:4.1.63.Final]
+	at io.netty.resolver.InetSocketAddressResolver.doResolve(InetSocketAddressResolver.java:31) ~[netty-resolver-4.1.63.Final.jar:4.1.63.Final]
+	at io.netty.resolver.AbstractAddressResolver.resolve(AbstractAddressResolver.java:106) ~[netty-resolver-4.1.63.Final.jar:4.1.63.Final]
+	at io.netty.bootstrap.Bootstrap.doResolveAndConnect0(Bootstrap.java:206) ~[netty-transport-4.1.63.Final.jar:4.1.63.Final]
+	at io.netty.bootstrap.Bootstrap.access$000(Bootstrap.java:46) ~[netty-transport-4.1.63.Final.jar:4.1.63.Final]
+	at io.netty.bootstrap.Bootstrap$1.operationComplete(Bootstrap.java:180) ~[netty-transport-4.1.63.Final.jar:4.1.63.Final]
+	at io.netty.bootstrap.Bootstrap$1.operationComplete(Bootstrap.java:166) ~[netty-transport-4.1.63.Final.jar:4.1.63.Final]
+	at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:578) ~[netty-common-4.1.63.Final.jar:4.1.63.Final]
+	at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:552) ~[netty-common-4.1.63.Final.jar:4.1.63.Final]
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:491) ~[netty-common-4.1.63.Final.jar:4.1.63.Final]
+	at io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:616) ~[netty-common-4.1.63.Final.jar:4.1.63.Final]
+	at io.netty.util.concurrent.DefaultPromise.setSuccess0(DefaultPromise.java:605) ~[netty-common-4.1.63.Final.jar:4.1.63.Final]
+	at io.netty.util.concurrent.DefaultPromise.trySuccess(DefaultPromise.java:104) ~[netty-common-4.1.63.Final.jar:4.1.63.Final]
+	at io.netty.channel.DefaultChannelPromise.trySuccess(DefaultChannelPromise.java:84) ~[netty-transport-4.1.63.Final.jar:4.1.63.Final]
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.safeSetSuccess(AbstractChannel.java:1012) ~[netty-transport-4.1.63.Final.jar:4.1.63.Final]
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.register0(AbstractChannel.java:516) ~[netty-transport-4.1.63.Final.jar:4.1.63.Final]
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.access$200(AbstractChannel.java:429) ~[netty-transport-4.1.63.Final.jar:4.1.63.Final]
+	at io.netty.channel.AbstractChannel$AbstractUnsafe$1.run(AbstractChannel.java:486) ~[netty-transport-4.1.63.Final.jar:4.1.63.Final]
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164) ~[netty-common-4.1.63.Final.jar:4.1.63.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472) ~[netty-common-4.1.63.Final.jar:4.1.63.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:500) ~[netty-transport-4.1.63.Final.jar:4.1.63.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989) ~[netty-common-4.1.63.Final.jar:4.1.63.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.63.Final.jar:4.1.63.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.1.63.Final.jar:4.1.63.Final]
+	at java.lang.Thread.run(Thread.java:748) ~[na:1.8.0_192]
+
