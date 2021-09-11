@@ -7,7 +7,7 @@
  - 삼성 청년 SW 아카데미 2학기 공통프로젝트 대전 1반 최우수상 수상
 ---
 ## 기능
-![image](https://user-images.githubusercontent.com/78480984/132939616-476bf165-5880-41f2-9407-08cc5cd08122.png)
+ ![123](https://user-images.githubusercontent.com/78480984/132939669-b7635187-d97f-4141-8eee-958ba8fe3b23.JPG)
 ---
 ## 사용기술
 ![image](https://user-images.githubusercontent.com/41180841/127511135-f48e68e5-9ccf-4d23-9cd0-d2f317c9f88b.png)
