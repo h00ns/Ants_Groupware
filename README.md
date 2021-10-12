@@ -53,3 +53,57 @@
 <br>
 
 # 💻 구현
+### [근태 관리]
+![intro](https://user-images.githubusercontent.com/78480984/136949070-3e513f3a-ff0f-4520-b9c5-794e6a739338.png)
+
+> 출/퇴근 입력 및 주 근무시간 시각화
+
+<br>
+
+### [업무 캘린더 및 업무 추적]
+![calender](https://user-images.githubusercontent.com/78480984/136949247-4b0a9b85-d8bd-490c-86bd-7ee6a00e0238.png)
+
+> 캘린더에 출/퇴근 시간을 나타냄.<br>
+> 캘린더 클릭시 해당일의 그룹원들의 업무 표시 (게시글 작성, 할일 작성 등)
+ 
+<br>
+
+### [사내 게시판]
+![notice](https://user-images.githubusercontent.com/78480984/136949515-4c9e5a1f-b76d-4438-8e5f-f43de8b0914c.png) <br>
+![detail](https://user-images.githubusercontent.com/78480984/136949810-0e788353-602a-4132-a997-63ed9b9f4a42.png)
+
+> 공지사항 게시판, 익명 게시판, 팀별 게시판이 존재하며 <br>
+> 북마크, 댓글 기능
+
+<br>
+
+### [실시간 DM]
+![DM](https://user-images.githubusercontent.com/78480984/136949833-76360101-df4d-48d2-894f-d54fc24d0a16.png)
+
+> 그룹원들과 메신저를 통하여 실시간 DM기능 <br>
+> 메신저는 이동이 가능한 컴포넌트로 구현하여 위치를 자유롭게 이동할 수 있음.
+
+<br>
+
+### [그룹원 관리]
+![manager](https://user-images.githubusercontent.com/78480984/136949960-186f4f41-260b-4a21-a268-b8bc932d22df.png)
+
+> 관리자 계정으로 로그인시 그룹원들의 리스트를 열람할 수 있음. <br>
+> 가입신청 대기자의 가입 신청을 승인 후 가입승인 메일을 발송할 수 있음.
+
+<br>
+
+### [자료실]
+![data](https://user-images.githubusercontent.com/78480984/136950077-e0af1cb2-0563-45a6-b450-9c3322b4e100.png)
+
+> pdf, jpg, txt, word 등 여러 종류의 파일을 업로드 할 수 있음. <br>
+> 해당 파일의 아이콘 클릭시 해당 종류의 파일 리스트만 출력.
+
+<br>
+
+### [화상 회의]
+![rtc](https://user-images.githubusercontent.com/78480984/136950192-8d8d952c-cccd-4842-b347-375d1dddb649.png)
+
+> 실시간으로 회의를 진행할 수 있으며 실시간 대화기능과 자료 공류가 가능함
+
+<br>
