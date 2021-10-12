@@ -56,8 +56,6 @@
 ## [시연 영상 링크]
 https://www.youtube.com/watch?v=JRjmimvADQY
 
-<br>
-
 ### [근태 관리]
 ![intro](https://user-images.githubusercontent.com/78480984/136949070-3e513f3a-ff0f-4520-b9c5-794e6a739338.png)
 
