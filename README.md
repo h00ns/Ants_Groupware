@@ -1,4 +1,4 @@
-![logo](https://user-images.githubusercontent.com/78480984/136932973-150cd698-5e3d-4d53-8d54-097dd0e2e76e.png)
+![ants-logo](https://user-images.githubusercontent.com/78480984/136933177-55e877b5-63af-4139-87be-18dcdb0d43f4.png)
 
 # 🐜비대면 협업을 위한 그룹웨어 서비스 Ants
 ---
