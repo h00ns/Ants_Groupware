@@ -69,18 +69,18 @@
 <br>
 
 ### [사내 게시판]
-![notice](https://user-images.githubusercontent.com/78480984/136949515-4c9e5a1f-b76d-4438-8e5f-f43de8b0914c.png) <br>
+![notice](https://user-images.githubusercontent.com/78480984/136949515-4c9e5a1f-b76d-4438-8e5f-f43de8b0914c.png) <br><br>
 ![detail](https://user-images.githubusercontent.com/78480984/136949810-0e788353-602a-4132-a997-63ed9b9f4a42.png)
 
 > 공지사항 게시판, 익명 게시판, 팀별 게시판이 존재하며 <br>
-> 북마크, 댓글 기능
+> 북마크 등록과 댓글을 남길 수 있음.
 
 <br>
 
 ### [실시간 DM]
 ![DM](https://user-images.githubusercontent.com/78480984/136949833-76360101-df4d-48d2-894f-d54fc24d0a16.png)
 
-> 그룹원들과 메신저를 통하여 실시간 DM기능 <br>
+> 그룹원들과 메신저를 통하여 실시간 Direct Message를 주고 받을 수 있음. <br>
 > 메신저는 이동이 가능한 컴포넌트로 구현하여 위치를 자유롭게 이동할 수 있음.
 
 <br>
