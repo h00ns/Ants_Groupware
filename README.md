@@ -53,7 +53,7 @@
 <br>
 
 # 💻 구현
-## [시연 영상 링크]
+## ⭐[시연 영상 링크]⭐
 https://www.youtube.com/watch?v=JRjmimvADQY
 
 ### [근태 관리]
