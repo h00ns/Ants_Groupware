@@ -21,12 +21,33 @@
 
 <br>
 
-## 주요 기능
+# 📌 주요 기능
  ![123](https://user-images.githubusercontent.com/78480984/132939669-b7635187-d97f-4141-8eee-958ba8fe3b23.JPG)
  
 <br>
 
-## 기술 
+# 📌 기술 스택
 ![image](https://user-images.githubusercontent.com/41180841/127511135-f48e68e5-9ccf-4d23-9cd0-d2f317c9f88b.png)
 
 <br>
+
+# 📝 개발 규칙
+
+   ### ✔Git 규칙
+   
+   - #### Branch 규칙
+      ### ``` develop -> 개발자의 이름 ``` (각각의 branch)
+      #### ex) /jihoon  
+   
+   - #### Commit 규칙
+      ### ``` [ FE / BE ] Git 컨벤션(대문자) : Commit 메시지 ```
+      #### ex) [FE] ADD : 로그인 버튼 추가
+
+<br>
+
+# 💾 ERD
+![ants-erd](https://user-images.githubusercontent.com/78480984/136936065-420d0cd2-4442-4a1b-a133-08e0b46a1c97.png)
+
+<br>
+
+# 💻 구현
