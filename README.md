@@ -107,6 +107,6 @@ https://www.youtube.com/watch?v=JRjmimvADQY
 ### [화상 회의]
 ![rtc](https://user-images.githubusercontent.com/78480984/136950192-8d8d952c-cccd-4842-b347-375d1dddb649.png)
 
-> 실시간으로 회의를 진행할 수 있으며 실시간 대화기능과 자료 공류가 가능함
+> 실시간으로 회의를 진행할 수 있으며 실시간 대화기능과 자료 공유가 가능함
 
 <br>
